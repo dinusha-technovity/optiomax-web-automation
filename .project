@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>OptiomaxWebAutomate</name>
+=======
+	<name>OptiomaxWebAutomation</name>
+>>>>>>> 59a74d5 (Updated web)
 	<comment></comment>
 	<projects>
 	</projects>

@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="tests.SignUpEnterpriseTest">
         <methods>
           <include name="testInvalidDataTypeForFields"/>
@@ -20,6 +21,26 @@
           <include name="testUnsupportedCharactersInInputs"/>
         </methods>
       </class> <!-- tests.SignUpEnterpriseTest -->
+=======
+      <class name="com.Optiomax.testCases.UsersTest">
+        <methods>
+          <include name="testAddNewUsersButton"/>
+          <include name="testExportCSV"/>
+          <include name="testNextPageButton"/>
+          <include name="testFilterNonExistingData"/>
+          <include name="testPartialSearchFunctionality"/>
+          <include name="testFilterValidCriteria"/>
+          <include name="testToggleListView"/>
+          <include name="setUp"/>
+          <include name="testPreviousPageButton"/>
+          <include name="testToggleGridView"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="testSearchFunctionality"/>
+          <include name="testSearchNoResults"/>
+        </methods>
+      </class> <!-- com.Optiomax.testCases.UsersTest -->
+>>>>>>> 59a74d5 (Updated web)
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
