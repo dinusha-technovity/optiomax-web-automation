@@ -103,18 +103,6 @@ public class BusinessInformationTest {
         businessInfoPage.enterCompanyWebsite("https://johndoe.com");
         businessInfoPage.clickContinue();
     }
-    
-    @Test(priority = 7)
-    public void testCompanyAccountFlow() {
-        businessInfoPage.selectIndividualAccountType();
-        businessInfoPage.enterCompanyName("John Doe");
-        businessInfoPage.enterCompanyEmail("john.doe@example.com");
-        businessInfoPage.enterContactPerson("John Doe");
-        businessInfoPage.enterContactNumber("1234567890");
-        businessInfoPage.enterCompanyAddress("123 Elm Street");
-        businessInfoPage.enterCompanyWebsite("https://johndoe.com");
-        businessInfoPage.clickContinue();
-    }
 
     @AfterClass
     public void tearDown() {

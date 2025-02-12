@@ -117,7 +117,7 @@ public class PersonalInformationTest {
         Assert.assertEquals(personalInformationPage.getErrorMessage(), "Invalid contact number",
                 "Error message for invalid contact number did not match.");
     }
-
+    
     @AfterClass
     public void tearDown() {
         basePage.closeBrowser();
